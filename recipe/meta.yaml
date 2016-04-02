@@ -1,12 +1,13 @@
-{% set version = "0.2.0" %}
+{% set version = "0.2.1" %}
 
 package:
     name: folium
     version: {{ version }}
 
 source:
-    git_url: https://github.com/python-visualization/folium.git
-    git_tag: v{{ version }}
+    fn: folium-{{ version }}.tar.gz
+    url: https://pypi.python.org/packages/source/f/folium/folium-{{ version }}.tar.gz
+    md5: af353f2613127bc4cf64a346e550506f
 
 build:
     number: 0

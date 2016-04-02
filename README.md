@@ -73,6 +73,11 @@ Linux: [![Circle CI](https://circleci.com/gh/conda-forge/folium-feedstock.svg?st
 OSX: [![TravisCI](https://travis-ci.org/conda-forge/folium-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/folium-feedstock) 
 Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/folium-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/folium-feedstock/branch/master)
 
+Current release info
+====================
+Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/folium/badges/version.svg)](https://anaconda.org/conda-forge/folium)
+Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/folium/badges/downloads.svg)](https://anaconda.org/conda-forge/folium)
+
 
 Updating folium-feedstock
 =========================
