@@ -5,7 +5,7 @@ Home: https://github.com/python-visualization/folium
 
 Package license: MIT License
 
-Feedstock license: BSD
+Feedstock license: BSD 3-Clause
 
 Summary: Make beautiful maps with Leaflet.js and Python
 
@@ -69,6 +69,7 @@ Terminology
 
 Current build status
 ====================
+
 Linux: [![Circle CI](https://circleci.com/gh/conda-forge/folium-feedstock.svg?style=svg)](https://circleci.com/gh/conda-forge/folium-feedstock)
 OSX: [![TravisCI](https://travis-ci.org/conda-forge/folium-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/folium-feedstock) 
 Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/folium-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/folium-feedstock/branch/master)
