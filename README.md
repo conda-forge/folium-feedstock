@@ -3,13 +3,25 @@ About folium
 
 Home: https://github.com/python-visualization/folium
 
-Package license: MIT License
+Package license: MIT
 
 Feedstock license: BSD 3-Clause
 
-Summary: Make beautiful maps with Leaflet.js and Python
+Summary: Make beautiful maps with Leaflet.js and Python.
 
 
+
+Current build status
+====================
+
+Linux: [![Circle CI](https://circleci.com/gh/conda-forge/folium-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/folium-feedstock)
+OSX: [![TravisCI](https://travis-ci.org/conda-forge/folium-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/folium-feedstock)
+Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/folium-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/folium-feedstock/branch/master)
+
+Current release info
+====================
+Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/folium/badges/version.svg)](https://anaconda.org/conda-forge/folium)
+Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/folium/badges/downloads.svg)](https://anaconda.org/conda-forge/folium)
 
 Installing folium
 =================
@@ -31,7 +43,6 @@ It is possible to list all of the versions of `folium` available on your platfor
 ```
 conda search folium --channel conda-forge
 ```
-
 
 
 About conda-forge
@@ -67,18 +78,6 @@ Terminology
 
 **conda-forge** - the place where the feedstock and smithy live and work to
                   produce the finished article (built conda distributions)
-
-Current build status
-====================
-
-Linux: [![Circle CI](https://circleci.com/gh/conda-forge/folium-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/folium-feedstock)
-OSX: [![TravisCI](https://travis-ci.org/conda-forge/folium-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/folium-feedstock)
-Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/folium-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/folium-feedstock/branch/master)
-
-Current release info
-====================
-Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/folium/badges/version.svg)](https://anaconda.org/conda-forge/folium)
-Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/folium/badges/downloads.svg)](https://anaconda.org/conda-forge/folium)
 
 
 Updating folium-feedstock

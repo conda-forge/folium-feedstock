@@ -1,39 +1,40 @@
 {% set version = "0.2.1" %}
 
 package:
-    name: folium
-    version: {{ version }}
+  name: folium
+  version: {{ version }}
 
 source:
-    fn: folium-{{ version }}.tar.gz
-    url: https://pypi.python.org/packages/source/f/folium/folium-{{ version }}.tar.gz
-    md5: af353f2613127bc4cf64a346e550506f
+  fn: folium-{{ version }}.tar.gz
+  url: https://pypi.python.org/packages/source/f/folium/folium-{{ version }}.tar.gz
+  sha256: 6b267b43e573b4f1d6317501f612e5aef92d6965c454ebe8ab73f259d9859107
 
 build:
-    number: 0
-    script: python setup.py install --single-version-externally-managed --record record.txt
+  number: 1
+  script: python setup.py install --single-version-externally-managed --record record.txt
 
 requirements:
-    build:
-        - python
-        - setuptools
-    run:
-        - python
-        - jinja2
-        - numpy
-        - pandas
-        - vincent
+  build:
+    - python
+    - setuptools
+  run:
+    - python
+    - jinja2
+    - numpy
+    - pandas
+    - vincent
 
 test:
-    imports:
-        - folium
+  imports:
+    - folium
 
 about:
-    home: https://github.com/python-visualization/folium
-    license: MIT License
-    summary: Make beautiful maps with Leaflet.js and Python
+  home: https://github.com/python-visualization/folium
+  license: MIT
+  license_file: LICENSE.txt
+  summary: 'Make beautiful maps with Leaflet.js and Python.'
 
 extra:
-    recipe-maintainers:
-        - ocefpaf
-        - BibMartin
+  recipe-maintainers:
+    - ocefpaf
+    - BibMartin
