@@ -1,4 +1,4 @@
-{% set version = "0.2.1" %}
+{% set version = "0.3.0" %}
 
 package:
   name: folium
@@ -6,11 +6,11 @@ package:
 
 source:
   fn: folium-{{ version }}.tar.gz
-  url: https://pypi.python.org/packages/source/f/folium/folium-{{ version }}.tar.gz
-  sha256: 6b267b43e573b4f1d6317501f612e5aef92d6965c454ebe8ab73f259d9859107
+  url: https://pypi.io/packages/source/f/folium/folium-{{ version }}.tar.gz
+  sha256: 7729ddd6766b9c5dab17b3709e2387935fd5c655872f1cbab7b7036474415217
 
 build:
-  number: 1
+  number: 0
   script: python setup.py install --single-version-externally-managed --record record.txt
 
 requirements:
@@ -19,6 +19,7 @@ requirements:
     - setuptools
   run:
     - python
+    - branca
     - jinja2
     - numpy
     - pandas
