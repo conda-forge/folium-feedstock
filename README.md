@@ -7,7 +7,7 @@ Package license: MIT
 
 Feedstock license: BSD 3-Clause
 
-Summary: Make beautiful maps with Leaflet.js and Python.
+Summary: Make beautiful maps with Leaflet.js and Python
 
 
 
