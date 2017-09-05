@@ -14,9 +14,7 @@ Summary: Make beautiful maps with Leaflet.js and Python
 Current build status
 ====================
 
-Linux: [![Circle CI](https://circleci.com/gh/conda-forge/folium-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/folium-feedstock)
-OSX: [![TravisCI](https://travis-ci.org/conda-forge/folium-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/folium-feedstock)
-Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/folium-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/folium-feedstock/branch/master)
+All platforms: [![Circle CI](https://circleci.com/gh/conda-forge/folium-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/folium-feedstock)
 
 Current release info
 ====================
