@@ -1,4 +1,4 @@
-{% set version = "0.5.0" %}
+{% set version = "0.6.0" %}
 
 package:
   name: folium
@@ -6,17 +6,17 @@ package:
 
 source:
   url: https://pypi.io/packages/source/f/folium/folium-{{ version }}.tar.gz
-  sha256: 748944521146d85c6cd6230acf234e885864cd0f42fea3758d655488517e5e6e
+  sha256: 08681be47b1861221bc7cf17b6e368a8d734db81682d716c22a11e839f47cb79
 
 build:
   number: 0
-  script: python setup.py install --single-version-externally-managed --record record.txt
   noarch: python
+  script: "{{ PYTHON }} -m pip install . --no-deps --ignore-installed --no-cache-dir -vvv"
 
 requirements:
   build:
     - python
-    - setuptools
+    - pip
   run:
     - python
     - branca
