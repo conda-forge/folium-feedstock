@@ -1,7 +1,3 @@
-<!--
-# -*- mode: jinja -*-
--->
-
 About folium
 ============
 
@@ -18,8 +14,17 @@ Summary: Make beautiful maps with Leaflet.js and Python
 Current build status
 ====================
 
-All platforms:
-[![noarch](https://img.shields.io/circleci/project/github/conda-forge/folium-feedstock/master.svg?label=noarch)](https://circleci.com/gh/conda-forge/folium-feedstock)
+
+<table><tr>
+    
+    <td>All platforms:</td>
+    <td>
+      <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=5913&branchName=master">
+        <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/folium-feedstock?branchName=master">
+      </a>
+    </td>
+  </tr>
+</table>
 
 Current release info
 ====================
