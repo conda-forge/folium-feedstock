@@ -11,14 +11,14 @@ source:
 build:
   number: 0
   noarch: python
-  script: "{{ PYTHON }} -m pip install . --no-deps --ignore-installed --no-cache-dir -vvv"
+  script: "{{ PYTHON }} -m pip install . --no-deps -vv"
 
 requirements:
   build:
-    - python
+    - python >=3.5
     - pip
   run:
-    - python
+    - python >=3.5
     - branca
     - jinja2
     - numpy
