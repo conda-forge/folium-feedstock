@@ -9,7 +9,7 @@ source:
   sha256: 8ea08e0eda45e1b9dc56378f6da91ddccb58d44acc2aa4402e69e5a765ecdfa1
 
 build:
-  number: 0
+  number: 1
   noarch: python
   script: "{{ PYTHON }} -m pip install . --no-deps -vv"
 
@@ -24,7 +24,6 @@ requirements:
     - numpy
     - pandas
     - vincent
-    - altair
     - requests
 
 test:
