@@ -1,4 +1,4 @@
-{% set version = "0.10.0" %}
+{% set version = "0.10.1" %}
 
 package:
   name: folium
@@ -6,10 +6,10 @@ package:
 
 source:
   url: https://pypi.io/packages/source/f/folium/folium-{{ version }}.tar.gz
-  sha256: 8ea08e0eda45e1b9dc56378f6da91ddccb58d44acc2aa4402e69e5a765ecdfa1
+  sha256: edbf79d04345a75f8503fe6d071179806ee7e3baf81ae4f329b9f3ce8f118c3d
 
 build:
-  number: 1
+  number: 0
   noarch: python
   script: "{{ PYTHON }} -m pip install . --no-deps -vv"
 
