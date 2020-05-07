@@ -1,4 +1,4 @@
-{% set version = "0.10.1" %}
+{% set version = "0.11.0" %}
 
 package:
   name: folium
@@ -6,12 +6,12 @@ package:
 
 source:
   url: https://pypi.io/packages/source/f/folium/folium-{{ version }}.tar.gz
-  sha256: edbf79d04345a75f8503fe6d071179806ee7e3baf81ae4f329b9f3ce8f118c3d
+  sha256: 540789abc21872469e52c59ac3962c61259a8df557feadd6514eb23eb0a64ca7
 
 build:
   number: 0
   noarch: python
-  script: "{{ PYTHON }} -m pip install . --no-deps -vv"
+  script: "{{ PYTHON }} -m pip install . -vv"
 
 requirements:
   build:
@@ -19,14 +19,16 @@ requirements:
     - pip
   run:
     - python >=3.5
-    - branca
-    - jinja2
+    - branca >=0.3.0
+    - jinja2 >=2.9
     - numpy
-    - pandas
-    - vincent
     - requests
 
 test:
+  requires:
+    - pip
+  commands:
+    - pip check
   imports:
     - folium
 
@@ -34,7 +36,7 @@ about:
   home: https://github.com/python-visualization/folium
   license: MIT
   license_file: LICENSE.txt
-  summary: 'Make beautiful maps with Leaflet.js and Python'
+  summary: Make beautiful maps with Leaflet.js and Python
 
 extra:
   recipe-maintainers:
