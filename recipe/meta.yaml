@@ -11,7 +11,7 @@ source:
   sha256: e91e57d8298f3ccf4cce3c5e065bea6eb17033e3c5432b8a22214009c266b2ab
 
 build:
-  number: 0
+  number: 1
   noarch: python
   script: {{ PYTHON }} -m pip install . -vv
 
@@ -19,6 +19,7 @@ requirements:
   host:
     - python >=3.6
     - pip
+    - setuptools-scm
   run:
     - python >=3.6
     - branca >=0.3.0
