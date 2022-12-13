@@ -22,7 +22,7 @@ requirements:
     - setuptools-scm
   run:
     - python >=3.6
-    - branca >=0.3.0
+    - branca >=0.6.0
     - jinja2 >=2.9
     - numpy
     - requests
