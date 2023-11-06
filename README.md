@@ -1,11 +1,11 @@
-About folium
-============
+About folium-feedstock
+======================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/folium-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/python-visualization/folium
 
 Package license: MIT
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/folium-feedstock/blob/main/LICENSE.txt)
 
 Summary: Make beautiful maps with Leaflet.js and Python
 
