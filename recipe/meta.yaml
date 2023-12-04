@@ -1,5 +1,5 @@
 {% set name = "folium" %}
-{% set version = "0.15.0" %}
+{% set version = "0.15.1" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/folium-{{ version }}.tar.gz
-  sha256: 1be7dbd4a59c7d096194b5e9868402d637f99daaaa0673381deb5d407dc552ce
+  sha256: cb792d11e8049a455d3dc6416cdd8e7a1623d6b949f6e42c45a5d8fa4d1e24f4
 
 build:
   number: 0
@@ -27,6 +27,7 @@ requirements:
     - jinja2 >=2.9
     - numpy
     - requests
+    - xyzservices
 
 test:
   requires:
