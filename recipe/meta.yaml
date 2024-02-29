@@ -1,5 +1,5 @@
 {% set name = "folium" %}
-{% set version = "0.15.1" %}
+{% set version = "0.16.0" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/folium-{{ version }}.tar.gz
-  sha256: cb792d11e8049a455d3dc6416cdd8e7a1623d6b949f6e42c45a5d8fa4d1e24f4
+  sha256: 2585ee9253dc758d3a365534caa6fb5fa0c244646db4dc5819afc67bbd4daabb
 
 build:
   number: 0
@@ -23,7 +23,7 @@ requirements:
     - pip
   run:
     - python >=3.7
-    - branca >=0.7.0
+    - branca >=0.6.0
     - jinja2 >=2.9
     - numpy
     - requests
