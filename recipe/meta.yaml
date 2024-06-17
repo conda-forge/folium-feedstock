@@ -17,12 +17,12 @@ build:
 
 requirements:
   host:
-    - python >=3.7
+    - python >=3.8
     - setuptools >=41.2
     - setuptools-scm
     - pip
   run:
-    - python >=3.7
+    - python >=3.8
     - branca >=0.6.0
     - jinja2 >=2.9
     - numpy
