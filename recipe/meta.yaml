@@ -1,5 +1,5 @@
 {% set name = "folium" %}
-{% set version = "0.19.4" %}
+{% set version = "0.19.5" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/folium-{{ version }}.tar.gz
-  sha256: 431a655b52a9bf3efda336f2be022103f0106504a0599e7c349efbfd30bafda6
+  sha256: 103ef92d7738b91972f4531211f76eee3f38c88be03111bbd6a5e65c69d084df
 
 build:
   number: 0
