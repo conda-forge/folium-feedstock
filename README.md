@@ -7,7 +7,7 @@ Home: https://github.com/python-visualization/folium
 
 Package license: MIT
 
-Summary: Make beautiful maps with Leaflet.js and Python
+Summary: Make beautiful maps with Leaflet.js & Python
 
 Current build status
 ====================
